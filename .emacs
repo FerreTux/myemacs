@@ -107,3 +107,4 @@
   (if (get-buffer "*scratch*")
       (kill-buffer "*scratch*")))
 (add-hook 'after-change-major-mode-hook 'remove-scratch-buffer)
+(require 'keychain-environment)
